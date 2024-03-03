@@ -11,8 +11,8 @@ from keras.models import load_model
 import webbrowser
 
 
-model = load_model(r"C:\Users\rajrs\PycharmProjects\facedetection\my_model.h5")
-label = np.load(r"C:\Users\rajrs\PycharmProjects\facedetection\labels.npy")
+model = load_model("my_model.h5")
+label = np.load("labels.npy")
 holistic = mp.solutions.holistic
 hands = mp.solutions.hands
 holis = holistic.Holistic()
