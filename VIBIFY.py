@@ -29,7 +29,7 @@ def load_lottieurl(url: str):
 st.title("VIBIFY")
 st.header("Enhance your Music listening with VIBIFY")
 st.sidebar.header("Welcome to VIBIFY")
-st.sidebar.write("VIBIFY is a facial expression based music recommender to enchance your music listening exprience.")
+st.sidebar.write("VIBIFY is a facial expression based music recommender to enhance your music listening exprience.")
 st.sidebar.subheader("Hope you like it...❤️")
 
 if "run" not in st.session_state:
