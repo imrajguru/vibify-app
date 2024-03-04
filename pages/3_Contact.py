@@ -4,7 +4,7 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 
-st.sidebar.write("Where words fail, music speaks.")
+st.sidebar.write('"Where words fail, music speaks."')
 st.sidebar.subheader("-Heinrich Heine")
 st.title("Contact Us...📫")
 

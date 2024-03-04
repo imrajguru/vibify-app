@@ -5,8 +5,10 @@ import streamlit as st  # pip install streamlit
 from streamlit_lottie import st_lottie
 
 
-st.sidebar.write("One good thing about music, when it hits you, you feel no pain ")
+st.sidebar.write('"One good thing about music, when it hits you, you feel no pain."')
 st.sidebar.subheader("-Bob marley")
+
+
 def load_lottieurl(url: str):
     r = requests.get(url)
     if r.status_code != 200:
@@ -43,8 +45,8 @@ st.write(f"Email: {email if email else 'Not Provided'}")
 st.write(f"Feedback: {feedback}")
 st.write(f"Rating: {star_rating}/5")
 btn = st.button("Submit")
-lottie_hello = load_lottieurl("https://lottie.host/102f3d4b-4a8e-49ef-aa27-e1a72af18b0f/7Lzkcs71Mq.json")
-st_lottie(lottie_hello, key="hello", width=700, height=400)
 
 if name and email and btn:
+    lottie_hello = load_lottieurl("https://lottie.host/102f3d4b-4a8e-49ef-aa27-e1a72af18b0f/7Lzkcs71Mq.json")
+    st_lottie(lottie_hello, key="hello", width=500, height=300)
     st.success("Thanks for your feedback!")

@@ -6,13 +6,13 @@ from streamlit_lottie import st_lottie
 
 st.title("About us...🔎")
 
-st.sidebar.write("Without music life would be a mistake")
+st.sidebar.write('"Without music life would be a mistake"')
 st.sidebar.subheader("-Friedrich Nietzsche")
 st.header("This project is developed by the Members of E2 batch:-")
-st.markdown("**Rajguru (Backend/Data integration)**")
-st.write("**Mohan (Frontend/backend)**")
-st.write("**Nida (layout desgin)**")
-st.write("**Nanthini (Research analysis)**")
+st.markdown("**🙍‍♂️ Rajguru (Backend/ML integration)**")
+st.write("**🙍‍♂️ Mohan (Frontend/backend)**")
+st.write("**🙍‍♀️ Nida (layout design)**")
+st.write("**🙍‍♀️ Nanthini (Research analysis)**")
 
 
 st.subheader("About this project:-")
